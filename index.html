@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav-bar">
+                <div class="logo">
+                    <h1>Portfólio </h1>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#Início" class="nav-link">Início</a></li>
+                        <li class="nav-item"><a href="#Projetos" class="nav-link">Projetos</a></li>
+                        <li class="nav-item"><a href="#SobreMim" class="nav-link"> Sobre mim</a></li>
+                        <li class="nav-item"><a href="#Contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="imagens/menu_white_36dp.svg" alt=""></button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#Início" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#Projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#SobreMim" class="nav-link">Sobre mim</a></li>
+                    <li class="nav-item"><a href="#Contato" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <section id="Início" class="principal">
+            <div class="container">
+                <div class="informPessoais">
+                    <h1>Gean Cesar</h1>
+                    <h2 id="MinhaProf">Desenvolvedor Web</h2>
+                    <p id="Meta"></p>
+                </div>
+                <div class="fotoPrincipal">
+                    <img src="./imagens/semfundo.png" alt="Minha Imagem Principal" />
+                </div>
+            </div>
+        </section>
+
+        <section id="SobreMim" class="SobreMim">
+            <div class="container sobremim-container">
+                <h2>Sobre mim</h2>
+                <div class="sobremim-content">
+
+                    <div class="sobremim-div1">
+                        <p>
+                            Olá! Sou <span style="color: aqua;">Gean</span>, estudante do último semestre de Análise e
+                            Desenvolvimento de Sistemas, com foco em desenvolvimento web. Tenho experiência prática com
+                            <span style="color:aqua;">HTML, CSS, JavaScript e Git/GitHub</span>, aplicando conceitos de
+                            design responsivo,
+                            boas práticas de código e funcionalidades interativas em meus projetos.
+                            <br><br>
+                            Este portfólio foi criado para ser um reflexo do meu aprendizado e evolução na programação.
+                            Cada
+                            projeto aqui apresentado foi desenvolvido para demonstrar minhas habilidades técnicas, meu
+                            cuidado com a experiência do usuário e meu interesse em construir aplicações bem
+                            estruturadas,
+                            performáticas e de fácil manutenção.
+                            <br><br>
+                            Sou autodidata, persistente e organizado, sempre em busca de novas formas de melhorar meus
+                            conhecimentos e práticas. Meu objetivo é iniciar minha carreira como <span
+                                style="color: aqua;">Front-End Júnior</span> ou em áreas correlatas, contribuindo para a
+                            criação de interfaces modernas e impactantes.
+                        </p>
+                    </div>
+
+                    <div class="video">
+                        <p class="video-text">Assista a uma demonstração complementar do meu trabalho:</p>
+                        <video src="videos/video1.mp4" controls autoplay muted width="500"></video>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <section id="Projetos" data-aos="fade-up" class="Projetos">
+            <div class="container">
+                <h2>Projetos</h2>
+                <div class="ContainerProjetos">
+                    <div class="projeto1">
+                        <div class="projeto-card-img">
+                            <img alt="Imagensprojetos" src="./imagens/topburguer.PNG" width="300px">
+                        </div>
+                        <div class="projeto-info">
+                            <h3>Página Top Burguer</h3>
+                            <p>Site fictício de hamburgueria feito para treinar responsividade</p>
+                            <br>
+                            <a class="botao" href="https://github.com/Gean-Cesar-da-silva-de-barros/Projeto-Top-Burger"
+                                target="_blank" rel="noopener noreferrer">Código</a>
+                            <a class="botao" href="https://gean-cesar-da-silva-de-barros.github.io/Projeto-Top-Burger/"
+                                target="_blank" rel="noopener noreferrer">Demo</a>
+                        </div>
+
+                    </div>
+                    <div class="projeto2">
+                        <div class="projeto-card-img">
+                            <img src="./imagens/printstarbucks.PNG" width="300px">
+                        </div>
+                        <div class="projeto-info">
+                            <h3>Página Starbucks</h3>
+                            <p>Projeto de Landing Page Starbucks desenvolvido com HTML e CSS.</p>
+                            <br>
+                            <a class="botao" href="https://github.com/Gean-Cesar-da-silva-de-barros/Projeto-Starbucks"
+                                target="_blank" rel="noopener noreferrer">Código</a>
+                            <a class="botao" href="https://gean-cesar-da-silva-de-barros.github.io/Projeto-Starbucks/"
+                                target="_blank" rel="noopener noreferrer">Demo</a>
+                        </div>
+
+                    </div>
+                    <div class="projeto3">
+                        <div class="projeto-card-img">
+                            <img src="./imagens/awax.PNG" width="300px">
+                        </div>
+                        <div class="projeto-info">
+                            <h3>Página Awax</h3>
+                            <p>Leading Page Awax do curso da B7WEB, feito com HTML/CSS</p>
+                            <br>
+                            <a class="botao" href="https://github.com/Gean-Cesar-da-silva-de-barros/Projeto-Awax"
+                                target="_blank" rel="noopener noreferrer">Código</a>
+                            <a class="botao" href="https://gean-cesar-da-silva-de-barros.github.io/Projeto-Awax/"
+                                target="_blank" rel="noopener noreferrer">Demo</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="projeto4">
+                        <div class="projeto-card-img">
+                            <img src="./imagens/George orweell grande preto e branco.jpeg" width="300px">
+                        </div>
+                        <div class="projeto-info">
+                            <h3>Tributo George Orwell</h3>
+                            <p>Simples Leading page feito com HTML/CSS</p>
+                            <br>
+                            <a class="botao"
+                                href="https://github.com/Gean-Cesar-da-silva-de-barros/Tributo-George-Orwel"
+                                target="_blank" rel="noopener noreferrer">Código</a>
+                            <a class="botao"
+                                href="https://gean-cesar-da-silva-de-barros.github.io/Tributo-George-Orwel/"
+                                target="_blank" rel="noopener noreferrer">Demo</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="projeto5">
+                        <div class="projeto-card-img">
+                            <img src="./imagens/clonegoogle.PNG" width="300px">
+                        </div>
+                        <div class="projeto-info">
+                            <h3>Clone Google</h3>
+                            <p>Simples Clone Google feito com HTML/CSS</p>
+                            <br>
+                            <a class="botao" href="https://github.com/Gean-Cesar-da-silva-de-barros/Clone-Google"
+                                target="_blank" rel="noopener noreferrer">Código</a>
+                            <a class="botao" href="https://gean-cesar-da-silva-de-barros.github.io/Clone-Google/"
+                                target="_blank" rel="noopener noreferrer">Demo</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+        </section>
+
+
+
+
+        <section class="ContainerContatoRapido">
+            <h2>Fale comigo</h2>
+            <p>Preencha o formulário abaixo e responderei o mais rápido possível.</p>
+
+            <form id="contatoRapidoForm">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <h2>Minhas redes</h2>
+            <div id="Contato" class="redes">
+                <div class="github">
+
+                    <a href="https://github.com/Gean-Cesar-da-silva-de-barros" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="./imagens/github50corlor.png" alt="Ícone Whatsapp" />
+
+                    </a>
+                </div>
+                <div class="instagram">
+
+                    <a href="https://www.instagram.com/gean_dev/" target="_blank" rel="noopener noreferrer">
+                        <img src="./imagens/instagram50.png" alt="Ícone Whatsapp" />
+
+                    </a>
+                </div>
+                <div class="email">
+                    <a href="mailto:gean021216@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <img src="./imagens/gmail50color.png" alt="Ícone Email" />
+                    </a>
+                </div>
+                <div class="linkedin">
+                    <a href="https://www.linkedin.com/in/gean-c%C3%A9sar-76b35422a/" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="./imagens/linkedin.png" alt="Ícone Linkedin" />
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>© 2025 Gean Cesar. Todos os direitos reservados.</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        document.getElementById("contatoRapidoForm").addEventListener("submit", function (e) {
+            e.preventDefault(); // impede envio tradicional
+
+            let nome = document.getElementById("nome").value;
+            let email = document.getElementById("email").value;
+            let mensagem = document.getElementById("mensagem").value;
+
+            // Meu numero
+            let numeroWhats = "5549991652498";
+
+            // Mensagem formatada
+            let texto = `Olá, meu nome é ${nome}.
+            Email: ${email}
+            Mensagem: ${mensagem}`;
+
+            // Monta o link do WhatsApp
+            let url = `https://wa.me/${numeroWhats}?text=${encodeURIComponent(texto)}`;
+
+            // Redireciona para o WhatsApp
+            window.open(url, "_blank");
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
